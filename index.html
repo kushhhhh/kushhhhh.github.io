@@ -8,7 +8,6 @@
         body {
             background: black;
         }
-        
         #title {
             color: white;
             text-align: center;
@@ -16,33 +15,37 @@
             font-size: 300%;
             text-decoration: underline;
         }
-        
         #introduction_1 {
             font-family: trebuchet MS;
             font-size: 150%;
             color: white;
         }
-        
         #list_of_members {
             font-family: trebuchet MS;
             font-size: 150%;
             color: white;
         }
-        
         #introduction_2 {
             font-family: trebuchet MS;
             font-size: 150%;
             color: white;
         }
-        #band_members {
-            text-align: center;
+        .band_members {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+        #basic_history {
+            font-family: trebuchet MS;
+            color: white;
         }
     </style>
     <body>
         <h1 id="title">
             ONE DIRECTION
         </h1>
-        <img id="band_members" src="https://www.billboard.com/files/styles/article_main_image/public/media/one-direction-press-billboard-650.jpg">
+        <img class="band_members" src="https://www.billboard.com/files/styles/article_main_image/public/media/one-direction-press-billboard-650.jpg">
         <p id="introduction_1">
             One Direction is a teen pop band. The five members were:
         </p>
@@ -57,4 +60,7 @@
             The band first came together in 2010 but sadly broke up in 2016. Although it has disappointed millions 
             of fans across the world, their music still lives on within the fans.
         </p>
+        <h3 id="basic_history">
+            Basic History
+        </h3>
     </body>
