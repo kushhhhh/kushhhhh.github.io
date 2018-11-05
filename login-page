@@ -19,14 +19,11 @@ Password<input type="password" name="pswrd"/>
 function check(form)/*function to check userid & password*/
 {
  /*the following code checkes whether the entered userid and password are matching*/
- if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd")
-  {
-    window.open('https://www.w3schools.com/js/tryit.asp?filename=tryjson_array_modify')/*opens the target page while Id & password matches*/
-  }
- else
- {
-   alert("Error Password or Username")/*displays error message*/
-  }
+if (form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") {
+   window.open('kushhhhh.github.io/details-page.html')
+}
+else {
+   println("Error! Password and Username do not match... try again!")
 }
 </script>
 </body>
