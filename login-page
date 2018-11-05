@@ -7,9 +7,13 @@ Login page
 <style>
    h1 {
       font-family: Trebuchet MS;
-      font-size: 10pt;
+      font-size: 30pt;
    }
    #username {
+      font-family: Verdana;
+      font-size: 15pt;
+   }
+   #password {
       font-family: Verdana;
       font-size: 15pt;
    }
@@ -20,8 +24,9 @@ Simple Login Page
 </h1>
 <form name="login">
 <p id="username">
-Username<input type="text" name="userid"/> <br> <br> </p>
-Password<input type="password" name="pswrd"/> <br> <br>
+Username<input type="text" name="userid"/> <br> </p>
+<p id="password">
+Password<input type="password" name="pswrd"/> <br> </p>
 <input type="button" onclick="check(this.form)" value="Login"/>
 <input type="reset" value="Cancel"/>
 </form>
