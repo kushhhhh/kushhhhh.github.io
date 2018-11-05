@@ -23,7 +23,7 @@ Password<input type="password" name="pswrd"/>
 </form>
 <script language="javascript">
 function check(form) {
-if (form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") {
+if (form.userid.value === "msLaing" && form.pswrd.value === "haha") {
    window.open('https://kushhhhh.github.io/details-page.html')
 }
 else {
