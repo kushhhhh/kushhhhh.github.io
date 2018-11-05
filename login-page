@@ -20,7 +20,7 @@ function check(form)/*function to check userid & password*/
 {
  /*the following code checkes whether the entered userid and password are matching*/
 if (form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") {
-   window.open('kushhhhh.github.io/details-page.html')
+   window.open('https://kushhhhh.github.io/details-page.html')
 }
 else {
    println("Error! Password and Username do not match... try again!")
