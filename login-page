@@ -6,7 +6,7 @@ Login page
 </head>
 <style>
    h1 {
-      font-family: Comic Sans Ms;
+      font-family: Trebuchet MS;
       text-align: center;
       font-size: 20pt;
    }
