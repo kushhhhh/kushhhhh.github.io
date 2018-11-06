@@ -223,4 +223,23 @@
         </table>
         <br>
         <br>
+        <p id="survey">Select your favorite album:</p>
+<form action="/action_page.php">
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Up All Night">Up All Night<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Take Me Home">Take Me Home<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Midnight Memories">Midnight Memories<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Four">Four<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Made in the A.M.">Made in the A.M.<br><br>
+
+  Your favorite browser is: <input type="text" id="result">
+  <input type="submit" value="Submit form">
+</form>
+
+<script>
+function myFunction(browser) {
+    document.getElementById("result").value = browser;
+}
+</script>
+        <br>
+        <br>
     </body>
