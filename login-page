@@ -32,11 +32,11 @@ Password<input type="password" name="pswrd"/> <br> </p>
 </form>
 <script language="javascript">
 function check(form) {
-if (form.userid.value === "msLaing" && form.pswrd.value === "haha") {
+if (form.userid.value === "user" && form.pswrd.value === "password") {
    window.open('https://kushhhhh.github.io/details-page.html')
 }
 else {
-   println("Error! Password and Username do not match... try again!")
+   println("Error! Password or Username is incorrect... try again!")
 }
 }
 </script>
