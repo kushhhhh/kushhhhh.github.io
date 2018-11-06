@@ -49,7 +49,7 @@
             margin-left: auto;
             margin-right: auto;
         }
-        #survey {
+        .survey {
             font-size: 120%;
         }
     </style>
@@ -226,16 +226,17 @@
         </table>
         <br>
         <br>
-        <p id="survey">Select your favorite album:
+        <p class="survey">Select your favorite album:</p>
             <form action="/action_page.php">
                 <input type="radio" name="browser" onclick="myFunction(this.value)" value="Up All Night">Up All Night<br>
                 <input type="radio" name="browser" onclick="myFunction(this.value)" value="Take Me Home">Take Me Home<br>
                 <input type="radio" name="browser" onclick="myFunction(this.value)" value="Midnight Memories">Midnight Memories<br>
                 <input type="radio" name="browser" onclick="myFunction(this.value)" value="Four">Four<br>
                 <input type="radio" name="browser" onclick="myFunction(this.value)" value="Made in the A.M.">Made in the A.M.<br><br>
-            Your favorite album is: <input type="text" id="result">
-                <input type="submit" value="Submit form">
-        </form> </p>
+            <p>
+                Your favorite One Direction album is: <input type="text" id="result">
+                <input type="submit" value="Submit form"> </p>
+        </form>
         <script>
             function myFunction(browser) {
                 document.getElementById("result").value = browser;
