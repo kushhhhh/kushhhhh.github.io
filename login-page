@@ -5,6 +5,10 @@ Login page
 </title>
 </head>
 <style>
+   body {
+   color: white;
+   background-color: black;
+   }
    h1 {
       font-family: Trebuchet MS;
       font-size: 30pt;
