@@ -226,17 +226,21 @@
         </table>
         <br>
         <br>
-        <p class="survey">Select your favorite album:</p>
-            <form action="/action_page.php">
-                <input type="radio" name="browser" onclick="myFunction(this.value)" value="Up All Night">Up All Night<br>
-                <input type="radio" name="browser" onclick="myFunction(this.value)" value="Take Me Home">Take Me Home<br>
-                <input type="radio" name="browser" onclick="myFunction(this.value)" value="Midnight Memories">Midnight Memories<br>
-                <input type="radio" name="browser" onclick="myFunction(this.value)" value="Four">Four<br>
-                <input type="radio" name="browser" onclick="myFunction(this.value)" value="Made in the A.M.">Made in the A.M.<br><br>
-            <p>
-                Your favorite <em>One Direction</em> album is: <input type="text" id="result">
-                <input type="submit" value="Submit form"> </p>
-        </form>
+        <p>Select your favorite album:</p>
+            <form action="/survey.html">
+                <input type="radio" name="album" onclick="myFunction(this.value)" value="Up All Night">Up All Night<br>
+                <input type="radio" name="album" onclick="myFunction(this.value)" value="Take Me Home">Take Me Home<br>
+                <input type="radio" name="album" onclick="myFunction(this.value)" value="Midnight Memories">Midnight Memories<br>
+                <input type="radio" name="album" onclick="myFunction(this.value)" value="Four">Four<br>
+                <input type="radio" name="album" onclick="myFunction(this.value)" value="Made in the A.M.">Made in the A.M.<br><br>
+            Your favorite <em>One Direction</em> album is: <input type="text" id="result">
+                <input type="submit" value="Submit form">
+            </form>
+        <script>
+            function myFunction(browser) {
+                document.getElementById("result").value = browser;
+            }
+        </script>
         <br>
         <br>
     </body>
