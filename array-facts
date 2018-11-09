@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>
+Login page
+</title>
+</head>
+<style>
+
+</style>
+<body>
+var albumFacts = ['Trial 1','Trial 2','Trial 3','Trial 4','Trial 5']
+<p>Select an album that you'd like to read a fact about:</p>
+            <form action="/array-facts">
+                <input type="radio" name="album" onclick="myFunction(this.value)" value="Up All Night">Up All Night<br>
+                <input type="radio" name="album" onclick="myFunction(this.value)" value="Take Me Home">Take Me Home<br>
+                <input type="radio" name="album" onclick="myFunction(this.value)" value="Midnight Memories">Midnight Memories<br>
+                <input type="radio" name="album" onclick="myFunction(this.value)" value="Four">Four<br>
+                <input type="radio" name="album" onclick="myFunction(this.value)" value="Made in the A.M.">Made in the A.M.<br><br>
+            if (album === "Up All Night") {
+            text(albumFacts[0]);
+            }
+            elif (album === "Take Me Home") {
+            text(albumFacts[1]);          
+            }
+            elif (album === "Midnight Memories") {
+            text(albumFacts[2]);            
+            }
+            elif (album === "Four") {
+            text(albumFacts[3]);            
+            }
+            elif (album === "Made in the A.M.") {
+            text(albumFacts[4]);            
+            }
+            else {
+            println("Sorry, not found.");
+            }
+            Your favorite <em>One Direction</em> album is: <input type="text" id="result">
+                <input type="submit" value="Submit form">
+            </form>
+        <script>
+            function myFunction(browser) {
+                document.getElementById("result").value = browser;
+            }
+        </script>
+</body>
+</html>
