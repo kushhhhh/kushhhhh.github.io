@@ -5,11 +5,17 @@ Login page
 </title>
 </head>
 <style>
-
+body {
+            font-family: Trebuchet MS;
+            font-size: 120%;
+            background: black;
+            color: white;
+            }
 </style>
 <body>
-var albumFacts = ['Trial 1','Trial 2','Trial 3','Trial 4','Trial 5']
 <p>Select an album that you'd like to read a fact about:</p>
+<script language="javascript">
+var albumFacts = ['Trial 1','Trial 2','Trial 3','Trial 4','Trial 5']
             <form action="/array-facts">
                 <input type="radio" name="album" onclick="myFunction(this.value)" value="Up All Night">Up All Night<br>
                 <input type="radio" name="album" onclick="myFunction(this.value)" value="Take Me Home">Take Me Home<br>
@@ -37,7 +43,6 @@ var albumFacts = ['Trial 1','Trial 2','Trial 3','Trial 4','Trial 5']
             Your favorite <em>One Direction</em> album is: <input type="text" id="result">
                 <input type="submit" value="Submit form">
             </form>
-        <script>
             function myFunction(browser) {
                 document.getElementById("result").value = browser;
             }
