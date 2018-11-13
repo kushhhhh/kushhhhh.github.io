@@ -9,16 +9,10 @@
     body {
     color: white;
     background: black;
-    }
-    h4 {
     font-size: 120%;
     }
     h3 {
-    font-size: 120%;
     text-decoration: underline;
-    }
-    p {
-    font-size: 120%;
     }
     </style>
     
@@ -28,7 +22,7 @@
     <p>Trial 1</p>
     <h3>Take Me Home</h3>
     <p>Trial 2</p>
-    <h3>Midmight Memories</h3>
+    <h3>Midnight Memories</h3>
     <p>Trial 3</p>
     <h3>Four</h3>
     <p>Trial 4</p>
