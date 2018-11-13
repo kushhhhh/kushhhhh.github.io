@@ -19,7 +19,7 @@ h1 {
 <body>
             <h1>Extra Album Facts</h1>
 <h3>Select an album that you'd like to read a fact about:</h3>
-            <form action="/printed-facts.html">
+            <form action="/printed-facts">
                 <input type="radio" name="album" onclick="myFunction(this.value)" value="Up All Night">Up All Night<br>
                 <input type="radio" name="album" onclick="myFunction(this.value)" value="Take Me Home">Take Me Home<br>
                 <input type="radio" name="album" onclick="myFunction(this.value)" value="Midnight Memories">Midnight Memories<br>
@@ -53,7 +53,7 @@ var albumFacts = ['Trial 1','Trial 2','Trial 3','Trial 4','Trial 5']
             }
         </script>
             <h3>
-                        To return home, click <a href="https://kushhhhh.github.io/home-page.html">here</a>
+                        To return back to the home page, click <a href="https://kushhhhh.github.io/home-page.html">here</a>
             </h3>
 </body>
 </html>
